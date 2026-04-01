@@ -1,0 +1,46 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(220, 232, 241);
+    font-family: "Poppins", sans-serif;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between; /* Empuja el logo a la izquierda y el nav a la derecha */
+    align-items: center;           /* Centra verticalmente ambos elementos */
+    padding: 20px 50px;
+    background-color: #333;        /* Color de fondo para visualizarlo */
+}
+
+/* 3. El logo */
+.link-del-logo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* 4. Quitar los puntos de la lista y alinear horizontalmente */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px; /* Espacio entre cada enlace del menú */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00ff00; /* Efecto visual al pasar el mouse */
+}
