@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -9,24 +7,20 @@
 }
 
 body{
-    background-color: rgb(220, 232, 241);
+    background-color: #800020;
     font-family: "Poppins", sans-serif;
-}
-
-.menu-container {
-    display: flex;
-    justify-content: space-between; /* Empuja el logo a la izquierda y el nav a la derecha */
-    align-items: center;           /* Centra verticalmente ambos elementos */
-    padding: 20px 50px;
-    background-color: #333;        /* Color de fondo para visualizarlo */
 }
 
 /* 3. El logo */
 .link-del-logo {
     color: white;
-    text-decoration: none;
     font-weight: bold;
     font-size: 1.5rem;
+}
+img {
+    width: 100%;      /* Ocupa el 100% del ancho de su div padre */
+    max-width: 400px; /* Pero que no crezca más de 400px */
+    height: auto;
 }
 
 /* 4. Quitar los puntos de la lista y alinear horizontalmente */
@@ -41,6 +35,26 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    color: #00ff00; /* Efecto visual al pasar el mouse */
+.menu-container {
+    display: flex;
+    justify-content: space-between; /* Empuja el logo a la izquierda y el nav a la derecha */
+    align-items: center;           /* Centra verticalmente ambos elementos */
+    padding: 20px 50px;
+    background-color: #333;        /* Color de fondo para visualizarlo */
+}
+
+/*Esta es la parte de los sistemas operativos*/
+
+.linux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.kali-linux, .black-arch, .parrot-os{
+    display: flex;
+    flex-direction: column; /* Pone los elementos uno sobre otro */
+    align-items: center;    /* Centra la imagen y el botón horizontalmente */
+    text-align: center;
 }
