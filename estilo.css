@@ -58,3 +58,17 @@ nav ul li a {
     align-items: center;    /* Centra la imagen y el botón horizontalmente */
     text-align: center;
 }
+
+button{
+    background-color: #ffffff; /* Color Cian */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    font-weight: bold;
+}
+
+button a{
+    color: #333;
+}
