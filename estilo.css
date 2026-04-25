@@ -72,3 +72,31 @@ button{
 button a{
     color: #333;
 }
+
+/*Esta es la parte del footer*/
+
+
+footer{
+    background-color: #c17979;
+    padding: 20px 20px 20px 20px;
+}
+
+/**/
+
+.text-footer{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+/*Esta es la parte de los links*/
+
+a{
+    color: #800020;
+}
